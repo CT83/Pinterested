@@ -9584,3 +9584,304 @@ Processing by PinsController#index as HTML
   Rendered pins/index.html.erb within layouts/application (19.6ms)
   Rendered home/_header.html.erb (0.6ms)
 Completed 200 OK in 100ms (Views: 98.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 111.125.208.224 at 2017-11-28 01:56:19 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (1.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.7ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (124.0ms)
+  Rendered home/_header.html.erb (1.1ms)
+Completed 200 OK in 274ms (Views: 269.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/" for 111.125.208.224 at 2017-11-28 02:23:12 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (1.0ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (149.4ms)
+  Rendered home/_header.html.erb (2.1ms)
+Completed 200 OK in 1127ms (Views: 1034.1ms | ActiveRecord: 4.2ms)
+
+
+Started DELETE "/pins/18" for 111.125.208.224 at 2017-11-28 02:23:18 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ic1iCKoRWbMDbjGqLg/qVf+neaCers6QQFOf30eRspoBkh6bJBdn3hbF/qSncPvVnT0MzOoJ7466B0qU3+8UzQ==", "id"=>"18"}
+  [1m[35mPin Load (0.5ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 18]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1  [["user_id", 5], ["id", 18]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 18]]
+  [1m[36m (15.6ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/018/original/Forest.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/018/medium/Forest.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/018/thumb/Forest.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 71ms (ActiveRecord: 17.5ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:19 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (26.5ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 234ms (Views: 231.8ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/pins/17" for 111.125.208.224 at 2017-11-28 02:23:20 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ic1iCKoRWbMDbjGqLg/qVf+neaCers6QQFOf30eRspoBkh6bJBdn3hbF/qSncPvVnT0MzOoJ7466B0qU3+8UzQ==", "id"=>"17"}
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 17]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 5], ["id", 17]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 17]]
+  [1m[35m (158.0ms)[0m  commit transaction
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/017/original/Flowers.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/017/medium/Flowers.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/017/thumb/Flowers.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 187ms (ActiveRecord: 159.3ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:20 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.5ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (50.0ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 281ms (Views: 274.1ms | ActiveRecord: 1.5ms)
+
+
+Started DELETE "/pins/14" for 111.125.208.224 at 2017-11-28 02:23:23 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XHgB/jPgVYtsjaUv8fgUlqG6pzGxE6yCvgF1Yv0VvW18J31tveZr5nkmaiF4hwUWwyDSXcW0jZxEVaApZWsbOg==", "id"=>"14"}
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 14]]
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (1.4ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 5], ["id", 14]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 14]]
+  [1m[35m (16.7ms)[0m  commit transaction
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/014/original/Birds_Eye_View.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/014/medium/Birds_Eye_View.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/014/thumb/Birds_Eye_View.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 57ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:23 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (40.4ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 240ms (Views: 237.5ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/pins/15" for 111.125.208.224 at 2017-11-28 02:23:25 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TTUFMfP0ZPt2hRV3Lg9KdmtwQTA4lgQXNBKYJynR7eptanmiffJalmMu2nmncFv2Ceo0XEwxJQnORk1ssa9LvQ==", "id"=>"15"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 15]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.1ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1  [["user_id", 5], ["id", 15]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 15]]
+  [1m[36m (22.1ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/015/original/Cactus_Close_Up.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/015/medium/Cactus_Close_Up.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/015/thumb/Cactus_Close_Up.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 41ms (ActiveRecord: 23.3ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:26 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (20.3ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 142ms (Views: 139.4ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/pins/16" for 111.125.208.224 at 2017-11-28 02:23:27 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Lge+eu9Y5YWNQukFdd/VedMLCuLuAjKsvfdjeez7YikOWMLpYV7b6JjpJgv8oMT5sZF/jpqlE7JHo7YydIXEfg==", "id"=>"16"}
+  [1m[35mPin Load (0.2ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 16]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1  [["user_id", 5], ["id", 16]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 16]]
+  [1m[36m (54.3ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/016/original/Clear_Day.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/016/medium/Clear_Day.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/016/thumb/Clear_Day.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 77ms (ActiveRecord: 55.5ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:28 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (13.1ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 117ms (Views: 115.3ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/pins/12" for 111.125.208.224 at 2017-11-28 02:23:31 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"F/Fo9vnbpOUHnahDQ592nvgxh8/LeDuxx5J4fTkNqvc3rhRld92aiBI2Z03K4Gcemqvyo7/fGq89xq02oXMMoA==", "id"=>"12"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 12]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 5], ["id", 12]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 12]]
+  [1m[35m (105.8ms)[0m  commit transaction
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/012/original/Autumn.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/012/medium/Autumn.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/012/thumb/Autumn.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 132ms (ActiveRecord: 106.9ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:31 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.5ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (13.6ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 119ms (Views: 116.4ms | ActiveRecord: 1.2ms)
+
+
+Started DELETE "/pins/13" for 111.125.208.224 at 2017-11-28 02:23:35 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"R3OL0SCEJCJSC/6RI/DU4uoJD0d3gV8KBHXiUzvGTRBnLPdCroIaT0egMZ+qj8ViiJN6KwMmfhT+ITcYo7jrRw==", "id"=>"13"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 13]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1[0m  [["user_id", 5], ["id", 13]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "pins" WHERE "pins"."id" = ?[0m  [["id", 13]]
+  [1m[35m (17.6ms)[0m  commit transaction
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/013/original/Bamboo.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/013/medium/Bamboo.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/013/thumb/Bamboo.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 47ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:35 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (10.8ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 122ms (Views: 118.9ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/pins/11" for 111.125.208.224 at 2017-11-28 02:23:37 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U2g7ftP99TmlrFP38qgJufHLNoxcmAm89lWQLIeKY59zN0ftXfvLVLAHnPl71xg5k1FD4Cg/KKIMAUVnH/TFyA==", "id"=>"11"}
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."user_id" = ? AND "pins"."id" = ? LIMIT 1  [["user_id", 5], ["id", 11]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "pins" WHERE "pins"."id" = ?  [["id", 11]]
+  [1m[36m (17.0ms)[0m  [1mcommit transaction[0m
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/011/original/A_New_World.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/011/medium/A_New_World.jpg
+[paperclip] deleting /home/ubuntu/workspace/public/system/pins/images/000/000/011/thumb/A_New_World.jpg
+Redirected to https://ruby-course-ct83.c9users.io/pins
+Completed 302 Found in 130ms (ActiveRecord: 18.4ms)
+
+
+Started GET "/pins" for 111.125.208.224 at 2017-11-28 02:23:38 +0000
+Cannot render console from 111.125.208.224! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 5]]
+  [1m[36mPin Load (0.5ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (13.6ms)
+  Rendered home/_header.html.erb (0.9ms)
+Completed 200 OK in 190ms (Views: 187.1ms | ActiveRecord: 1.2ms)
