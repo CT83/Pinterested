@@ -1,0 +1,14 @@
+<div class="jumbotron">
+    <h1>Welcome to Pinterested!</h1>
+    <p>This is a Pinterest Clone</p>
+    
+    <% if user_signed_in? %>
+        <%= link_to 'List Pins', pins_path, class:'btn btn-default'%> 
+        <%= link_to 'Edit', edit_user_registration_path, class:'btn btn-default'%> 
+        <%= link_to 'Logout', destroy_user_session_path,method: :delete, class:'btn btn-primary'%>    
+    <% else %>
+        <%= link_to 'Login', user_session_path, class:'btn btn-default'%>    
+        <%= link_to 'Join', new_user_registration_path, class:'btn btn-primary'%>     
+    <% end %>
+
+</div>
