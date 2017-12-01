@@ -9885,3 +9885,541 @@ Processing by PinsController#index as HTML
   Rendered pins/index.html.erb within layouts/application (13.6ms)
   Rendered home/_header.html.erb (0.9ms)
 Completed 200 OK in 190ms (Views: 187.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 111.125.208.222 at 2017-11-30 16:53:20 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  Rendered home/_jumbo.html.erb (1.6ms)
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (106.6ms)
+  Rendered home/_header.html.erb (1.5ms)
+Completed 200 OK in 1845ms (Views: 1711.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/masonry/basic.self-e7ec9a3a635d67da34f624b83c0af44d7e8c43b98df64fdf8c96278b7472f491.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/centered.self-879593f9244eeba1cc998ec04c0ce3a75c7ffc296cd51adf39d9577dd1ad1b22.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/fluid.self-780061412a1035e7eb041e9dc70ba54566fcbd4add9186e1cbdad64c18d637d5.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/infinitescroll.self-2277014da156e886215b5c5626ebefa2212dafbdc0cca01aef5ebfdcb431ff9c.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/boot.self-f6a79fb982300331a4861d2abc0b228db62ba97fb462b6b9647096102752c82b.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/gutters.self-489950bf182e3d644754b0cb2f718b05b0748afe9abdac3bb98c43f70f7f725a.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/right-to-left.self-1926f6dff2363b494817518a408088f03c8a3f3b41a6fcd449d45684c352721e.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:23 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4c654360c7cb66a82ad9095c13418354fb7bffce939ac510452b6ae963f4b1ba.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-226e1fd506b3868d6593b2ad0d615c909508c30c1dc100e2fe078f7af63949a8.css?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-68755679ee21f68a2a14ab30434947b80d70dc96df4abd5dd2e3dbb89a7909e0.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e97b34501831ea5a31b285425a3e2d92862165922edf91ddaeb60a94e55df5c5.js?body=1" for 111.125.208.222 at 2017-11-30 16:53:24 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 111.125.208.222 at 2017-12-01 01:18:45 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PinsController#index as HTML
+  Rendered home/_jumbo.html.erb (1.6ms)
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (82.5ms)
+  Rendered home/_header.html.erb (1.4ms)
+Completed 200 OK in 1004ms (Views: 949.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/boot.self-f6a79fb982300331a4861d2abc0b228db62ba97fb462b6b9647096102752c82b.css?body=1" for 111.125.208.222 at 2017-12-01 01:18:46 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-226e1fd506b3868d6593b2ad0d615c909508c30c1dc100e2fe078f7af63949a8.css?body=1" for 111.125.208.222 at 2017-12-01 01:18:46 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-68755679ee21f68a2a14ab30434947b80d70dc96df4abd5dd2e3dbb89a7909e0.js?body=1" for 111.125.208.222 at 2017-12-01 01:18:47 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4c654360c7cb66a82ad9095c13418354fb7bffce939ac510452b6ae963f4b1ba.css?body=1" for 111.125.208.222 at 2017-12-01 01:18:47 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e97b34501831ea5a31b285425a3e2d92862165922edf91ddaeb60a94e55df5c5.js?body=1" for 111.125.208.222 at 2017-12-01 01:18:47 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 111.125.208.222 at 2017-12-01 01:20:02 +0000
+Cannot render console from 111.125.208.222! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  Rendered home/_jumbo.html.erb (0.5ms)
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (7.3ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 160ms (Views: 158.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  Rendered home/_jumbo.html.erb (0.8ms)
+  [1m[35mPin Load (0.7ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (10.5ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 154ms (Views: 151.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/masonry/basic.self-e7ec9a3a635d67da34f624b83c0af44d7e8c43b98df64fdf8c96278b7472f491.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/fluid.self-780061412a1035e7eb041e9dc70ba54566fcbd4add9186e1cbdad64c18d637d5.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/right-to-left.self-1926f6dff2363b494817518a408088f03c8a3f3b41a6fcd449d45684c352721e.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/gutters.self-489950bf182e3d644754b0cb2f718b05b0748afe9abdac3bb98c43f70f7f725a.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/centered.self-879593f9244eeba1cc998ec04c0ce3a75c7ffc296cd51adf39d9577dd1ad1b22.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/infinitescroll.self-2277014da156e886215b5c5626ebefa2212dafbdc0cca01aef5ebfdcb431ff9c.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:32 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/transitions.self-a7dd920491429cc09dda36f003350cf98f5cec3c45d00888fab83293dce6ce92.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/boot.self-f6a79fb982300331a4861d2abc0b228db62ba97fb462b6b9647096102752c82b.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-226e1fd506b3868d6593b2ad0d615c909508c30c1dc100e2fe078f7af63949a8.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4c654360c7cb66a82ad9095c13418354fb7bffce939ac510452b6ae963f4b1ba.css?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-6ad2488465135ab731a045a8ebbe3ea2fc501aed286042496eda1664fdd07ba9.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-742145c5bb847aafdadc6e339be795628f8bc25f177e851f03a8c42278eb0312.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-126ac9bf0e7f2d8568f8da3a00fd5f0fac6eae0946331003370161fbf8d7975e.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-e47323f363ceb3dc0bdbce05e36e709ed428e339833a41140a85cb0af24b8127.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-2eb697f62b587bb786ff940d82dd4be88cdeeaf13ca128e3da3850c5fcaec301.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-561cca1cbaf67474e01e9536f106bad541594860a6df997004591c1c1957a147.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-3e78617ade5663314b7ee0ea10375a5b34d59ffbade44939e3f2a4e4ef2019b3.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-5bf7078b682f8b131332eefa46b45fa5eff2eca745fc0d03e2991450888f7c28.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-6d6f1a7fc5c8aabf3547fa1b794fab6268f54bc55ad815e55873c71f52513517.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-969f3c5f48cdf1e439c7fa1154c13b948715f5c689f87837c0b64521d3b46ef6.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-05afb177e08f98997ccfc84fa08a215e4b27d48d5fe4d049080675e9dffd8199.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-0aa93860b59fe7393f1dd490f54b3cb994f9d6155adffce034d4e14ae361b041.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/masonry/jquery.masonry.self-e55a2ca40f0bd20129930439c10a6b8c5dd26787b41fd8427db5b9da8c2af52f.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/pins.self-68755679ee21f68a2a14ab30434947b80d70dc96df4abd5dd2e3dbb89a7909e0.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e97b34501831ea5a31b285425a3e2d92862165922edf91ddaeb60a94e55df5c5.js?body=1" for 68.104.77.119 at 2017-12-01 01:44:35 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 68.104.77.119 at 2017-12-01 01:46:02 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  Rendered home/_jumbo.html.erb (0.4ms)
+  [1m[36mPin Load (0.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (7.4ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 185ms (Views: 182.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/sign_up" for 68.104.77.119 at 2017-12-01 01:46:05 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (174.2ms)
+  Rendered home/_header.html.erb (1.0ms)
+Completed 200 OK in 313ms (Views: 307.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for 68.104.77.119 at 2017-12-01 01:46:16 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"d0OFw5Z/iad1cR5ZfJB1af0+oMw6lQQN6Dfk1T/tt+rI8b7fyvWTE13lJRQTL17OkbBjoU0GS2cfb9ngm5BMmQ==", "user"=>{"name"=>"John", "email"=>"johne4196@gmail.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  begin transaction
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'johne4196@gmail.com' LIMIT 1[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "users" ("email", "encrypted_password", "name", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["email", "johne4196@gmail.com"], ["encrypted_password", "$2a$11$PzhM80tAPRjlDng1brOd.ergdIXgLtbY3l4YZWnVn537RuLtgALKC"], ["name", "John"], ["created_at", "2017-12-01 01:46:17.025873"], ["updated_at", "2017-12-01 01:46:17.025873"]]
+  [1m[36m (10.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = ?, "current_sign_in_at" = ?, "last_sign_in_ip" = ?, "current_sign_in_ip" = ?, "sign_in_count" = ?, "updated_at" = ? WHERE "users"."id" = ?[0m  [["last_sign_in_at", "2017-12-01 01:46:17.041572"], ["current_sign_in_at", "2017-12-01 01:46:17.041572"], ["last_sign_in_ip", "68.104.77.119"], ["current_sign_in_ip", "68.104.77.119"], ["sign_in_count", 1], ["updated_at", "2017-12-01 01:46:17.043325"], ["id", 6]]
+  [1m[35m (14.5ms)[0m  commit transaction
+Redirected to https://ruby-course-ct83.c9users.io/
+Completed 302 Found in 262ms (ActiveRecord: 27.2ms)
+
+
+Started GET "/" for 68.104.77.119 at 2017-12-01 01:46:17 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35mPin Load (0.3ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (11.1ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 146ms (Views: 142.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pins" for 68.104.77.119 at 2017-12-01 01:46:19 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (6.5ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pins/new" for 68.104.77.119 at 2017-12-01 01:46:20 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered pins/_form.html.erb (6.8ms)
+  Rendered pins/new.html.erb within layouts/application (13.9ms)
+  Rendered home/_header.html.erb (0.8ms)
+Completed 200 OK in 150ms (Views: 113.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/pins" for 68.104.77.119 at 2017-12-01 01:46:33 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FOMHGwO0tWaXnvVDZSlq7fNxcYO+WRKIXNAniY5sy/KrUTwHXz6v0r8Kzg4KlkFKn/+y7snKXeKriBq8KhEwgQ==", "pin"=>{"description"=>"Test", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f33aa3e71e8 @tempfile=#<Tempfile:/tmp/RackMultipart20171201-4124-1alezdj.png>, @original_filename="ruby.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"ruby.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Submit"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+Command :: file -b --mime '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-35jvrm.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]'
+Command :: convert '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]' -auto-orient -resize "300x300>" '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz920171201-4124-ibqfp3'
+Command :: file -b --mime '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz920171201-4124-ibqfp3'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]'
+Command :: convert '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz9.png[0]' -auto-orient -resize "100x100>" '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz920171201-4124-101ybci'
+Command :: file -b --mime '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-17z5zz920171201-4124-101ybci'
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+Command :: file -b --mime '/tmp/58e53d1324eef6265fdb97b08ed9aadf20171201-4124-bcq53.png'
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "pins" ("description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["description", "Test"], ["image_file_name", "ruby.png"], ["image_content_type", "image/png"], ["image_file_size", 26757], ["image_updated_at", "2017-12-01 01:46:33.427583"], ["user_id", 6], ["created_at", "2017-12-01 01:46:33.873128"], ["updated_at", "2017-12-01 01:46:33.873128"]]
+  [1m[36m (13.8ms)[0m  [1mcommit transaction[0m
+Redirected to https://ruby-course-ct83.c9users.io/pins/20
+Completed 302 Found in 493ms (ActiveRecord: 14.8ms)
+
+
+Started GET "/pins/20" for 68.104.77.119 at 2017-12-01 01:46:34 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"20"}
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1  [["id", 20]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (4.8ms)
+  Rendered home/_header.html.erb (1.3ms)
+Completed 200 OK in 155ms (Views: 152.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pins" for 68.104.77.119 at 2017-12-01 01:46:37 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (9.3ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 174ms (Views: 172.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pins/new" for 68.104.77.119 at 2017-12-01 01:46:41 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered pins/_form.html.erb (2.4ms)
+  Rendered pins/new.html.erb within layouts/application (3.8ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 161ms (Views: 157.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pins" for 68.104.77.119 at 2017-12-01 01:46:56 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SZs0NCplQPRozVytxAOsYEQ3Jd7waoeyP3X+8KAaE+H2KQ8odu9aQEBZZ+CrvIfHKLnms4f5yNjILcPFBGfokg==", "pin"=>{"description"=>"Test2", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f33a92e0020 @tempfile=#<Tempfile:/tmp/RackMultipart20171201-4124-191wexj.png>, @original_filename="mesm2.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"mesm2.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+Command :: file -b --mime '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-1m1egus.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]'
+Command :: convert '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]' -auto-orient -resize "300x300>" '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz48220171201-4124-rg24zy'
+Command :: file -b --mime '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz48220171201-4124-rg24zy'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]'
+Command :: convert '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz482.png[0]' -auto-orient -resize "100x100>" '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz48220171201-4124-t1a7r8'
+Command :: file -b --mime '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-tiz48220171201-4124-t1a7r8'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/tmp/1faf89fea9d47e83002732655c5a61b020171201-4124-2l0u8o.png'
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "pins" ("description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["description", "Test2"], ["image_file_name", "mesm2.png"], ["image_content_type", "image/png"], ["image_file_size", 117971], ["image_updated_at", "2017-12-01 01:46:56.988517"], ["user_id", 6], ["created_at", "2017-12-01 01:46:57.210425"], ["updated_at", "2017-12-01 01:46:57.210425"]]
+  [1m[35m (13.8ms)[0m  commit transaction
+Redirected to https://ruby-course-ct83.c9users.io/pins/21
+Completed 302 Found in 264ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/pins/21" for 68.104.77.119 at 2017-12-01 01:46:57 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 21]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (4.1ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 107ms (Views: 105.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pins/new" for 68.104.77.119 at 2017-12-01 01:46:59 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  Rendered pins/_form.html.erb (2.1ms)
+  Rendered pins/new.html.erb within layouts/application (3.4ms)
+  Rendered home/_header.html.erb (0.6ms)
+Completed 200 OK in 103ms (Views: 98.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pins" for 68.104.77.119 at 2017-12-01 01:47:07 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nOOEjQTXWqkkJ/I1W7AtiVovvbqw8V7fFuZEKaCIP9MjUb+RWF1AHQyzyXg0DwYuNqF+18diEbXhvnkcBPXEoA==", "pin"=>{"description"=>"test3", "image"=>#<ActionDispatch::Http::UploadedFile:0x007f33a9cb3b88 @tempfile=#<Tempfile:/tmp/RackMultipart20171201-4124-1urvnth.png>, @original_filename="Codemy.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"pin[image]\"; filename=\"Codemy.png\"\r\nContent-Type: image/png\r\n">}, "commit"=>"Submit"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+Command :: file -b --mime '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1d3zxo9.png'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]'
+Command :: convert '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]' -auto-orient -resize "300x300>" '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof20171201-4124-1ky3cyx'
+Command :: file -b --mime '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof20171201-4124-1ky3cyx'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]'
+Command :: convert '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof.png[0]' -auto-orient -resize "100x100>" '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof20171201-4124-8vwyix'
+Command :: file -b --mime '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-1w2xuof20171201-4124-8vwyix'
+  [1m[35m (0.1ms)[0m  begin transaction
+Command :: file -b --mime '/tmp/5a633db6fa7983ea3e9537d83fa9e03620171201-4124-k2inpf.png'
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "pins" ("description", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["description", "test3"], ["image_file_name", "Codemy.png"], ["image_content_type", "image/png"], ["image_file_size", 224924], ["image_updated_at", "2017-12-01 01:47:07.056852"], ["user_id", 6], ["created_at", "2017-12-01 01:47:07.288125"], ["updated_at", "2017-12-01 01:47:07.288125"]]
+  [1m[35m (15.5ms)[0m  commit transaction
+Redirected to https://ruby-course-ct83.c9users.io/pins/22
+Completed 302 Found in 272ms (ActiveRecord: 16.2ms)
+
+
+Started GET "/pins/22" for 68.104.77.119 at 2017-12-01 01:47:07 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#show as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins" WHERE "pins"."id" = ? LIMIT 1[0m  [["id", 22]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 6]]
+  Rendered pins/show.html.erb within layouts/application (4.9ms)
+  Rendered home/_header.html.erb (0.7ms)
+Completed 200 OK in 113ms (Views: 111.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pins" for 68.104.77.119 at 2017-12-01 01:47:08 +0000
+Cannot render console from 68.104.77.119! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PinsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1  [["id", 6]]
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY created_at DESC LIMIT 12 OFFSET 0[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered pins/index.html.erb within layouts/application (12.1ms)
+  Rendered home/_header.html.erb (0.5ms)
+Completed 200 OK in 102ms (Views: 100.4ms | ActiveRecord: 0.8ms)
