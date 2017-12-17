@@ -26,7 +26,7 @@ The website was my introduction to Ruby on Rails, it is a clone of the popular w
 <li>All added <em>Pins</em> can be deleted only by the users who uploaded them.</li>
 </ul>
 
-<hr>
+
 <h4>Screenshots</h4>
 <b>Pinterested</b>
 <img src="README_IMAGES/website.PNG">
