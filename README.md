@@ -26,21 +26,15 @@ The website was my introduction to Ruby on Rails, it is a clone of the popular w
 <li>All added <em>Pins</em> can be deleted only by the users who uploaded them.</li>
 </ul>
 
-
 <h4>Screenshots</h4>
 <b>Pinterested</b>
 <img src="README_IMAGES/website.PNG">
 
-
-
 <h4>Libraries</h4>
 <ul>
-<li>BootStrap</li>
-<li>Paperclip</li>
-<li>Devise</li>
+<li>[BootStrap](https://getbootstrap.com)</li>
+<li>[Paperclip](https://github.com/thoughtbot/paperclip)</li>  
+<li>[Devise](https://github.com/plataformatec/devise)</li>  
 </ul>
-
-
-
 
 <b>tl;dr</b> [Live Demo](https://pinterested-ct83.herokuapp.com/)
