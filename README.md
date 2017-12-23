@@ -32,7 +32,7 @@ The website was my introduction to Ruby on Rails, it is a clone of the popular w
 
 <h4>Libraries</h4>
 <ul>
-<li>[BootStrap](https://getbootstrap.com)</li>
+<li><a href="https://getbootstrap.com">BootStrap</a></li>
 <li>[Paperclip](https://github.com/thoughtbot/paperclip)</li>  
 <li>[Devise](https://github.com/plataformatec/devise)</li>  
 </ul>
