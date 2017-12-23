@@ -32,9 +32,9 @@ The website was my introduction to Ruby on Rails, it is a clone of the popular w
 
 <h4>Libraries</h4>
 <ul>
-<li><a href="https://getbootstrap.com">BootStrap</a></li>
-<li>[Paperclip](https://github.com/thoughtbot/paperclip)</li>  
-<li>[Devise](https://github.com/plataformatec/devise)</li>  
+  <li><a href="https://getbootstrap.com">BootStrap</a></li>
+  <li><a href="https://github.com/thoughtbot/paperclip">Paperclip</a></li>
+  <li><a href="https://github.com/plataformatec/devise">Devise</a></li>
 </ul>
 
 <b>tl;dr</b> [Live Demo](https://pinterested-ct83.herokuapp.com/)
